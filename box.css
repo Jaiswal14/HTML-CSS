@@ -3,7 +3,7 @@ body{
 }
 
 .wrapper{
-    width: 100%;
+    width: 1000px;
     display: flex;
     flex-direction: row;
     border: 1px solid blue;
@@ -30,6 +30,7 @@ ol{
     text-align: center;
 }
 .images{
+    width: 1000px;
     margin: 10px;
     display: flex;
     flex-direction: row;
