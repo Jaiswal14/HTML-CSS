@@ -3,7 +3,7 @@ body{
 }
 
 .wrapper{
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border: 1px solid blue;
@@ -17,3 +17,64 @@ body{
     margin: 1em;
     box-sizing: border-box;
 }
+
+ol{
+    background-color: black;
+    color: aliceblue;
+}
+
+.heading1{
+    margin: 1em;
+    color: brown;
+    margin: 10px;
+    text-align: center;
+}
+.images{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    ;
+}
+.regs{
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(102, 187, 236);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(196, 15, 15);
+  }
+
+  .active{
+      background-color: blueviolet;
+  }
+
+  p{
+    font-size: 20px;
+    margin: 10px;
+  }
+  .divP{
+      text-align: center;
+  }
